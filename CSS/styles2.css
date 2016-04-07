@@ -1,0 +1,276 @@
+@font-face {
+    font-family: Prototype;
+    src: url("../Fonts/prototype.ttf");
+}
+
+@font-face {
+    font-family: Djb-Chalk-It-Up;
+    src: url("../Fonts/djb-chalk-it-up.ttf");
+}
+
+@font-face {
+    font-family: "123-Marker";
+    src: url("../Fonts/marker.ttf");
+}
+
+h1,
+h2,
+h3 {
+    font-family: Prototype, Consolas, "Courier New", Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+}
+
+body {
+    line-height: 22px;
+}
+
+.navbar-custom {
+    border-radius: 0px;
+    margin-bottom: 0px;
+    font-family: Tahoma, "Trebuchet MS", sans-serif;
+    font-weight: 700;
+}
+
+.header {
+    background: url("../Images/Compu.jpg") no-repeat center center;
+    margin-bottom: 0px;
+    background-size: cover;
+    padding: 18% 0;
+}
+
+.whitetext {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.welcome h1 {
+    font-size: 4em;
+}
+
+.statement {
+    background-color: rgba(179, 179, 179, 0.7);
+    margin: 1%;
+    border-radius: 2%;
+}
+
+.statement-object {
+    border: none;
+    text-align: center;
+    font-style: italic;
+}
+
+.statement-object span {
+    font-weight: bold;
+}
+
+.sectioncont {
+    padding: 1% 0;
+}
+
+.sectionwhite {
+    background-color: #FFF;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.sectiongrey {
+    background-color: #f8f8f8
+}
+
+.header1 {
+    font-size: 2em;
+}
+
+.header2 {
+    font-size: 1.8em;
+}
+
+.sectionpic {
+    vertical-align: middle;
+}
+
+.site-img {
+    opacity: 1;
+    -webkit-transition: opacity 2s;
+    /* Safari */
+    transition: opacity 2s;
+}
+
+.site-img:hover {
+    opacity: 0.6;
+}
+
+.hover-effect {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-div {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .btn-div {
+        left: 35%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .btn-div {
+        left: 35%;
+    }
+}
+
+.btn-lilac {}
+
+.vmiddle {
+    vertical-align: middle;
+}
+
+.nopadding {
+    padding: 0px;
+}
+
+.sectiontitle {}
+
+.divider {
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.footer {
+    padding: 20px;
+    background-color: #222;
+}
+
+.padding-top {
+    padding-top: 6%
+}
+
+.padding-topbot {
+    padding: 6% 0;
+}
+
+.talent-web {
+    background: url("../Images/SkillsWebLaptop.png") no-repeat center center;
+    background-size: cover;
+    padding: 4%;
+    margin-bottom: 8%;
+}
+
+.web-cont {
+    padding: 8% 4%;
+    margin: auto;
+    width: 65%;
+}
+
+@media screen and (max-width: 991px) {
+    .talent-web {
+        background-size: 85%;
+        padding: 8%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .talent-web {
+        background-size: 120%;
+    }
+}
+
+.marketing {
+    color: #000000;
+    font-family: "123-Marker", Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #555;
+    background-color: #FFF;
+    border-radius: 2px;
+    padding: 5%;
+    margin: 2%;
+}
+
+.border-mkt {
+    margin: 6% auto;
+    padding: 1%;
+    width: 85%;
+    border-style: groove;
+    border-width: 3px;
+    border-radius: 4px;
+    background-color: #E0E0E0;
+    border-color: #A1A1A2;
+}
+
+.icon {
+    color: #9966CC;
+}
+
+.progress-lg {
+    margin-bottom: 10px;
+}
+
+.labelweb p {
+    font-weight: bold;
+}
+
+.bar-violet {
+    background-color: #9966cc;
+}
+
+.progress-s {
+    margin-bottom: 5px;
+}
+
+.bar-violet-s {
+    background-color: #9966cc;
+    text-align: left;
+    padding-left: 3%;
+}
+
+.img-hobbies {
+    width: 80%;
+    margin: auto;
+}
+
+@media (max-width: 767px) {
+    ul.social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+}
+
+.contact {
+    background: url("../Images/CompuContacto.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.contact-text {
+    padding: 3% 0;
+    font-weight: bold;
+}
+
+.btn-violet {
+    background-color: #5E227F;
+    color: white;
+}
+
+.btn-violet:hover {
+    background-color: #401756;
+    color: white;
+}
+
+.footer a {
+    color: #FFF;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    color: grey;
+    font-weight: bold;
+    text-decoration: underline;
+}
