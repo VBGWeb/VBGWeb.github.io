@@ -11,20 +11,32 @@ smoothScroll.init({
 
 $.stellar();
 
-/*Hover buttons site images*/
-$(".btn-hover").hover(
+new WOW().init();
+
+/*$(document).ready(function()
+     {$(".brandname").addClass('animated fadeInUp');
+    });
+
+$(document).ready(function()
+     {$(".statement").addClass('animated fadeInUpBig');
+    });*/
+
+/*Hover on site images*/
+$(".img-site").hover(
     function() {
         $(this).addClass('animated pulse');
     },
     function() {
         $(this).removeClass('animated pulse');
     });
-/*
-$("#btn-hover2").hover(
+
+
+$(".btn").hover(
     function() {
-        $("#btn-hover2").addClass('animated pulse');
+        $(this).addClass('animated rubberBand');
     },
     function() {
-        $("#btn-hover2").removeClass('animated pulse');
+        $(this).removeClass('animated rubberBand');
     });
-*/
+
+

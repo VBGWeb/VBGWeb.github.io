@@ -8,12 +8,21 @@
     src: url("../Fonts/djb-chalk-it-up.ttf");
 }
 
+@font-face {
+    font-family: "123-Marker";
+    src: url("../Fonts/marker.ttf");
+}
+
 h1,
 h2,
 h3 {
     font-family: Prototype, Consolas, "Courier New", Courier, monospace;
     font-weight: bold;
     text-align: center;
+}
+
+body {
+    line-height: 22px;
 }
 
 .navbar-custom {
@@ -78,17 +87,42 @@ h3 {
     font-size: 1.8em;
 }
 
-.sectionpic {
-    vertical-align: middle;
+.site-img {
+    opacity: 1;
+    -webkit-transition: opacity 2s;
+    /* Safari */
+    transition: opacity 2s;
 }
 
-.reserva-img {
-    background: url("../Images/LaReservaDesktop.png") no-repeat center center;
-    width: 100%;
+.site-img:hover {
+    opacity: 0.6;
 }
 
-.reserva-img a:hover {
-    background: url("../Images/LaReservaDesktopHover.png") no-repeat center center;
+.portrait {
+    margin: auto;
+}
+
+.hover-effect {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-div {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .btn-div {
+        left: 35%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .btn-div {
+        left: 35%;
+    }
 }
 
 .vmiddle {
@@ -146,16 +180,31 @@ h3 {
 }
 
 .marketing {
-    color: white;
-    font-family: Djb-Chalk-It-Up, Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
+    color: #000000;
+    font-family: "123-Marker", Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
     border-style: solid;
-    border-width: 15px;
-    border-color: #e3a653;
-    background-color: #14594d;
+    border-width: 1px;
+    border-color: #555;
+    background-color: #FFF;
     border-radius: 2px;
     padding: 5%;
-    margin: 5% auto;
+    margin: 2%;
+}
+
+.border-mkt {
+    margin: 6% auto;
+    padding: 1%;
+    width: 85%;
+    border-style: groove;
+    border-width: 3px;
+    border-radius: 4px;
+    background-color: #E0E0E0;
+    border-color: #A1A1A2;
+}
+
+.icon {
+    color: #9966CC;
 }
 
 .progress-lg {
