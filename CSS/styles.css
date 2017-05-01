@@ -52,7 +52,7 @@ body {
 .statement {
     background-color: rgba(179, 179, 179, 0.7);
     margin: 1%;
-    border-radius: 2%;
+    border-radius: 10px;
 }
 
 .statement-object {
@@ -100,6 +100,7 @@ body {
 
 .portrait {
     margin: auto;
+    max-width: 450px;
 }
 
 .hover-effect {
