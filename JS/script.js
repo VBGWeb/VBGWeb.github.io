@@ -40,3 +40,11 @@ $(".btn").hover(
     });
 
 
+/*Hover on text*/
+// $( ".animated-li strong" ).hover(
+//   function() {
+//     $( this ).addClass( "animated pulse" );
+//   }, function() {
+//     $( this ).removeClass( "animated pulse" );
+//   }
+// );

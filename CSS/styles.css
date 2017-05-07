@@ -22,7 +22,8 @@ h3 {
 }
 
 body {
-    line-height: 22px;
+    line-height: 24px;
+    font-size: 16px;
 }
 
 .navbar-custom {
@@ -103,6 +104,12 @@ body {
     max-width: 450px;
 }
 
+@media screen and (max-width: 500px) and (min-width: 300px) {
+    .portrait {
+        max-width: 100%;
+    }
+}
+
 .hover-effect {
     position: relative;
     overflow: hidden;
@@ -124,6 +131,10 @@ body {
     .btn-div {
         left: 35%;
     }
+}
+
+.animated-li:hover strong {
+    color: #a455d1;
 }
 
 .vmiddle {
