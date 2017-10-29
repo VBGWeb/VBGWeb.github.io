@@ -40,6 +40,21 @@ $(".btn").hover(
     });
 
 
+$('#typeDesing1').typeIt({
+     strings: ["HTML5", "CSS3","JavaScript","Sass/Less","SublimeText","Photoshop","Illustrator"],
+     speed: 2,
+     cursor: false,
+     autoStart: false
+});
+
+$('#typeDesing2').typeIt({
+     strings: ["Adobe XD", "Sketch","inVision","Principle","Ionic","Bootstrap","Wordpress"],
+     speed: 2,
+     cursor: false,
+     startDelay: 6000,
+     autoStart: false
+});
+
 /*Hover on text*/
 // $( ".animated-li strong" ).hover(
 //   function() {

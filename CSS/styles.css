@@ -26,6 +26,14 @@ body {
     font-size: 16px;
 }
 
+.margin-auto {
+    margin: auto;
+}
+
+.marginbt2 {
+    margin-bottom: 20px;
+}
+
 .navbar-custom {
     border-radius: 0px;
     margin-bottom: 0px;
@@ -51,7 +59,7 @@ body {
 }
 
 .statement {
-    background-color: rgba(179, 179, 179, 0.7);
+    background-color: rgba(198, 183, 214, 0.6);
     margin: 1%;
     border-radius: 10px;
 }
@@ -64,6 +72,14 @@ body {
 
 .statement-object span {
     font-weight: bold;
+}
+
+.parentflex {
+    display: flex;
+}
+
+.aling-i-center {
+    align-items: center;
 }
 
 .sectioncont {
@@ -165,17 +181,40 @@ body {
     padding: 6% 0;
 }
 
+@media screen and (min-width: 991px) {
+    .competencias-text {
+       margin-top: 10%; 
+    }
+
+}
+
 .talent-web {
     background: url("../Images/SkillsWebLaptop.png") no-repeat center center;
     background-size: cover;
-    padding: 4%;
     margin-bottom: 8%;
+    min-height: 300px;
 }
 
 .web-cont {
-    padding: 8% 4%;
+    padding: 10% 6%;
     margin: auto;
     width: 65%;
+}
+
+@media screen and (max-width: 400px) {
+    .web-cont {
+       width: 90%; 
+       padding: 20% 6%;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .web-cont {
+       width: 90%; 
+       padding: 25% 6%;
+    }
+
 }
 
 @media screen and (max-width: 991px) {
@@ -185,7 +224,7 @@ body {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
     .talent-web {
         background-size: 120%;
     }
@@ -233,6 +272,13 @@ body {
     font-weight: bold;
 }
 
+.labelwebSmall p{
+    font-size: 14px;
+    line-height: 12px;
+    font-weight: bold;
+    margin: 0 0 5px;
+}
+
 .bar-violet {
     background-color: #9966cc;
 }
@@ -245,6 +291,24 @@ body {
     background-color: #9966cc;
     text-align: left;
     padding-left: 3%;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    background: rgba(153, 102, 204, 0.9);
+    border-radius: 8px 8px 0 0;
+}
+
+#portfolio .portfolio-item .portfolio-link img {
+    border-radius: 8px 8px 0 0;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+    padding: 12px;
+    border-radius: 0 0 8px 8px;
+}
+
+#portfolio .portfolio-hover-content span {
+    text-decoration: underline;
 }
 
 .img-hobbies {
@@ -290,3 +354,5 @@ body {
     font-weight: bold;
     text-decoration: underline;
 }
+
+
